@@ -126,7 +126,7 @@ Motors use angles from 0 to 180 degrees. 90 is dead center.
 
      - Example: `spotlight.stop_bounce();`
 
-## Asking the Arduino a Question
+## Asking the Arduino Nano a Question
 
 Sometimes your code needs to know where the motor is pointing so it can make a decision (like changing an LED color).
 
@@ -146,7 +146,7 @@ Sometimes your code needs to know where the motor is pointing so it can make a d
 
 #### Don't use delay()!
 
-You might see delay(1000); in other Arduino tutorials. Do not use it here! delay() literally freezes the entire Arduino. If you use it, your motors will stop moving and your LEDs will stop fading.
+You might see `delay(1000);` in other Arduino tutorials. Do not use it here! delay() literally freezes the entire Arduino. If you use it, your motors will stop moving and your LEDs will stop fading.
 
 #### Why do the motors go to sleep?
 
